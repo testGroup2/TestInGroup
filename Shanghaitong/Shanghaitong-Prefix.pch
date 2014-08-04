@@ -1,0 +1,40 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "SynthesizeSingleton.h"
+    #import "SXConst.h"
+    #import "MobClick.h"
+    #import "AppTools.h"
+    #import "AppDelegate.h"
+    #import "PopupSmallView.h"
+    #import "JSONKit.h"
+#endif
+#define COLOR_WITH_RGBA(__R__, __G__, __B__, __A__) [UIColor colorWithRed:__R__ \
+/ 255.0f green:__G__ / 255.0f blue:__B__ / 255.0f alpha:__A__]
+
+#define COLOR_WITH_RGB(__R__, __G__, __B__)	[UIColor colorWithRed:__R__ / 255.0f \
+green:__G__ / 255.0f blue:__B__ / 255.0f alpha:1.0f]
+
+#define IOS7AndLater  (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1)
+#define IOS6AndLater  (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_5_1)
+#define ORIGIN_Y (IOS_VERSION>=7.0?64:44)
+//#if DEBUG
+//#define MCRelease(x) [x release]
+//#else
+//#define MCRelease(x) [x release], x = nil
+//#endif
+
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
