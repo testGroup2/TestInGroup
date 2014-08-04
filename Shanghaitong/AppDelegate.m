@@ -56,21 +56,6 @@ NSUncaughtExceptionHandler *_uncaughtExceptionHandler = nil;
     [MobClick startWithAppkey:@"53c725ca56240baa7b04b0ce" reportPolicy:REALTIME channelId:nil];
     
 }
-void UncaughtExceptionHandler(NSException *excetion){
-    NSLog(@"CRASH: %@",[excetion callStackSymbols]);
-    //异常的堆栈信息
-    NSArray *stackArray = [excetion callStackSymbols];
-    
-    //异常名称
-    NSString *name = [excetion name];
-    //异常原因
-    NSString *resason = [excetion reason];
-    NSString *syserror = [NSString stringWithFormat:@"mailto://495219869@qq.com?subject=bug报告&body=感谢您的配合!<br><br><br>""Error Detail:<br>%@<br>--------------------------<br>%@<br>---------------------<br>%@",
-                          name,resason,[stackArray componentsJoinedByString:@"<br>"]];
-    NSURL *url = [NSURL URLWithString:[syserror stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
-    [[UIApplication sharedApplication] openURL:url];
-    return;
-}
 
 #pragma  mark - Application
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

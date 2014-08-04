@@ -5,41 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2837E7C4-170C-4B21-802E-D1D1FA12E36A</string>
+	<string>F5072393-E8FF-4086-8C0D-40E4B00F79B7</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Shanghaitong</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>96D1C46A-73A7-42C1-A8C1-B3295D087968</key>
-		<string>svn://10.0.8.72/projects/apps/shangxin/ios</string>
+		<key>D2A116FB-14EF-46B9-A63D-5CA1C070FE1C</key>
+		<string>https://github.com/testGroup2/TestInGroup</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Shanghaitong/Shanghaitong.xcodeproj/project.xcworkspace</string>
+	<string>Shanghaitong.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>96D1C46A-73A7-42C1-A8C1-B3295D087968</key>
-		<string>../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>96D1C46A-73A7-42C1-A8C1-B3295D087968</key>
-		<string>svn://10.0.8.72</string>
+		<key>D2A116FB-14EF-46B9-A63D-5CA1C070FE1C</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>svn://10.0.8.72/projects/apps/shangxin/ios/Shanghaitong/Shanghaitong.xcodeproj</string>
+	<string>https://github.com/testGroup2/TestInGroup</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>96D1C46A-73A7-42C1-A8C1-B3295D087968</string>
+	<string>D2A116FB-14EF-46B9-A63D-5CA1C070FE1C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>96D1C46A-73A7-42C1-A8C1-B3295D087968</string>
+			<string>D2A116FB-14EF-46B9-A63D-5CA1C070FE1C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ios</string>
+			<string>Shanghaitong1.7</string>
 		</dict>
 	</array>
 </dict>
